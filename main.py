@@ -62,7 +62,6 @@ def per(msg):
     bot.register_next_step_handler(msg,new_post)
 def new_post(msg):
     bot.send_message(chat_id=-1001954010898,text=msg.text)
-    bot.send
 
 
 if __name__ == "__main__":
